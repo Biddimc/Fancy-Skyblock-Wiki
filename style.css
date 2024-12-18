@@ -25,28 +25,45 @@ body {
 
 /*Schalter für Darkmode*/
 .darkmode {
-    background-color: black;
-    width: 80px;
-    height: 40px;
-    border-radius: 80px;
+    --width: 50px;
+    --height: calc(var(--width) / 2);
+    --border-radius: calc(var(--height) / 2);
+    display: inline-block;
     cursor: pointer;
-    position: relative;
 }
-.darkmode::before{
-    position: absolute;
-    content: '';
-    background-color: red;
-    width: 35px;
-    height: 35px;
-    border-radius: 80px;
-    margin: 2.5px;
-}
-.darkmode input:checked + .darkmode{
-    background-color: white;
 
+.dark_input {
+    display: none;
 }
-input:checked + .darkmode::before{
-    transform: translateX(40);
+
+.dark_fill {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: #dddddd;
+    transition: background 0.2s;
+}
+
+.dark_input:checked ~ .dark_fill {
+    background: #009578;
+}
+
+.dark_fill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+}
+
+.dark_input:checked ~ .dark_fill::after {
+    transform: translateX(var(--height));
 }
 
 
