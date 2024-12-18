@@ -1,9 +1,9 @@
 body{
-    background-color: black;
-<<<<<<< Updated upstream
+    background-color:  #010803;
 }
-=======
-    position: relative;
+
+.navbar{
+    background-color: #070c09 ;
+    box-shadow: 2px 2px 5px #343434;
     background-size: cover;
 }
->>>>>>> Stashed changes
