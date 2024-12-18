@@ -1,3 +1,9 @@
 body{
     background-color: black;
+<<<<<<< Updated upstream
 }
+=======
+    position: relative;
+    background-size: cover;
+}
+>>>>>>> Stashed changes
