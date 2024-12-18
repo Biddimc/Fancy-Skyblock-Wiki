@@ -1,3 +1,30 @@
 body{
+    background-color:  #010803;
+}
+
+.navbar{
+    background-color: #070c09 ;
+    box-shadow: 2px 2px 5px #343434;
+    background-size: cover;
+}
+
+.navbar a{
+    color: white;
     background-color: black;
+    position: relative;
+    background-size: cover;
+}
+
+.navbar a::after, .navbar a::before{
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    padding: 10px;
+    border-radius: 20px;
+    background-image: conic-gradient(red, blue);
 }
