@@ -1,0 +1,52 @@
+/*Aussehen der Elemente*/
+
+
+body{
+    background-image: url(https://wiki.hypixel.net/images/8/81/SkyBlock_renders_locations_1.jpg);
+    background-size: cover;
+}
+
+body::after{
+    content: '';
+    position: absolute;
+    height: 300%;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    z-index: -1;
+    background-color: black;
+    opacity: 0.4;
+}
+
+.navbar{
+    background-image: url(https://th.bing.com/th/id/OIP.f-bUxApkYVl9bDYyJuWsqgHaEK?rs=1&pid=ImgDetMain);
+    background-size: cover;
+    box-shadow: 10px 10px 15px black;
+}
+
+.navbar a{
+    color: black;
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 5px black;
+}
+
+.navbar a:hover{
+    box-shadow: 2px 2px 5px white;
+}
+
+.container div{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 5px black;
+}
+
+.container div a{
+    color: white;
+    text-decoration: none;
+}
+
+.container div:hover{
+    box-shadow: 2px 2px 5px white;
+}
