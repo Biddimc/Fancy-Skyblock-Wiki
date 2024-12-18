@@ -7,3 +7,10 @@ body{
     box-shadow: 2px 2px 5px #343434;
     background-size: cover;
 }
+
+.navbar a{
+    color: white;
+    background-color: black;
+    position: relative;
+    background-size: cover;
+}
