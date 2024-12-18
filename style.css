@@ -13,6 +13,7 @@ body {
     row-gap: 20px;
     display: flex;
     padding: 5px 5px;
+    justify-content: space-between;
 }
 .navbar a {
     float: left;
@@ -23,9 +24,10 @@ body {
     border-radius: 20px;
 }
 
+
 /*Schalter für Darkmode*/
 .darkmode {
-    --width: 50px;
+    --width: 70px;
     --height: calc(var(--width) / 2);
     --border-radius: calc(var(--height) / 2);
     display: inline-block;
@@ -41,7 +43,9 @@ body {
     width: var(--width);
     height: var(--height);
     border-radius: var(--border-radius);
-    background: #dddddd;
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 3px 3px 9px black;
     transition: background 0.2s;
 }
 
