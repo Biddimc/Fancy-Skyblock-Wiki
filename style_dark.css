@@ -13,4 +13,7 @@ body{
     background-color: black;
     position: relative;
     background-size: cover;
+    border-style: solid;
+    border-color: red;
+    border-width: 2px;
 }
