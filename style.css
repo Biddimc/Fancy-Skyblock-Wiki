@@ -14,8 +14,6 @@ body {
     display: flex;
     padding: 5px 5px;
 }
-
-/*Inhalte der Leiste*/
 .navbar a {
     float: left;
     text-align: center;
@@ -25,6 +23,7 @@ body {
     border-radius: 20px;
 }
 
+/*Schalter für Darkmode*/
 .darkmode {
     background-color: black;
     width: 80px;
@@ -33,7 +32,6 @@ body {
     cursor: pointer;
     position: relative;
 }
-
 .darkmode::before{
     position: absolute;
     content: '';
@@ -43,15 +41,14 @@ body {
     border-radius: 80px;
     margin: 2.5px;
 }
-
 .darkmode input:checked + .darkmode{
     background-color: white;
 
 }
-
 input:checked + .darkmode::before{
     transform: translateX(40);
 }
+
 
 /*Hauptseite*/
 .main {
