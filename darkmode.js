@@ -8,9 +8,9 @@ document.getElementById("stylesheet")
 //Abfrage ob die Box gecheckt ist
 checkbox.addEventListener("change",() => 
     {if (checkbox.checked)
-    {stylesheet.href = "style/style_dark.css";}
+    {stylesheet.href = "style_dark.css";}
 
-    else {stylesheet.href ="style/style_fancy.css"}
+    else {stylesheet.href ="style_fancy.css"}
 
     }
 )
