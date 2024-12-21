@@ -97,7 +97,7 @@ body {
 
 
 /*Farming Talismane*/
-.Farming_Talismane{
+.Farming_Talismane , .Mining_Talismane , .Magic_Talismane , .Combat_Talismane , .Foraging_Talismane , .Other_Talismane{
     margin: auto;
     padding: 10px 10px;
     display: block;
@@ -134,9 +134,7 @@ body {
     vertical-align: middle;
 }
 
-.Mining_Talismane{
-    min-width: 100%;
-}
+
 
 /*Farben für Textabschnitte*/
 .white{
