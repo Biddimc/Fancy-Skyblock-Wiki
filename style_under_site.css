@@ -108,7 +108,7 @@ body {
 }
 
 /*Unterkategorie Andere*/
-.Other{
+.Other, .Vaccine{
     column-gap: 10px;
     row-gap: 10px;
     margin: auto;
