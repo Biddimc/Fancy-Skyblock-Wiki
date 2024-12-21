@@ -4,6 +4,8 @@
 body{
     background-image: url(https://wiki.hypixel.net/images/8/81/SkyBlock_renders_locations_1.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
 }
 
 body::after{
