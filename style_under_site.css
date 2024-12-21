@@ -134,6 +134,16 @@ body {
     vertical-align: middle;
 }
 
+img{
+    margin-left: 20% ;
+    align-items: center;
+    max-width: 100px;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 10px 10px;
+    background-size: cover;
+}
+
 
 
 /*Farben für Textabschnitte*/
