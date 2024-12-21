@@ -76,11 +76,11 @@ body {
 
 /*Main Inhalt*/
 .main{
-    text-align: center;
     margin: auto;
+    text-align: center;
     row-gap: 10px;
     column-gap: 10px;
-    padding: 10px 10px;
+    padding: 100px 10px;
     align-items: center;
     display: grid;
 }
@@ -96,6 +96,7 @@ body {
     display: flex;
     flex-wrap: wrap;
     min-width: 60%;
+    max-width: 80%;
 }
 
 
