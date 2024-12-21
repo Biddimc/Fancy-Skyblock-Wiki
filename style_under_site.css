@@ -94,24 +94,61 @@ body {
     flex-wrap: wrap;
 }
 
-.container div{
+
+/*Farming Talismane*/
+.Farming_Talismane{
     margin: auto;
     padding: 10px 10px;
-    display: flex;
+    display: block;
     align-items: center;
-    max-width: 250px;
-    min-width: 50px;
-    vertical-align: middle;
+    max-width: 900px;
+    column-gap: 10px;
 }
 
+/*Unterkategorie Andere*/
+.Other{
+    column-gap: 10px;
+    row-gap: 10px;
+    margin: auto;
+    padding: 10px 10px;
+
+    align-items: center;
+    min-width: 800px;
+    max-width: 800px;
+}
+
+.flex{
+    margin: auto;
+    display: flex;
+    row-gap: 10px;
+    column-gap: 10px;
+    max-width: 200px;
+    border-style: solid ;
+}
+
+.Other div{
+    row-gap: 10px;
+    column-gap: 10px;
+    max-width: 200px;
+    display: grid;
+    vertical-align: middle;
+}
 
 /*Farben für Textabschnitte*/
 .white{
     color: white;
 }
 
+.green{
+    color: rgb(14, 129, 14);
+}
+
 .light_blue{
     color: rgb(36, 137, 170);
+}
+
+.light_green{
+    color: rgb(47, 180, 47);
 }
 
 .yellow{
