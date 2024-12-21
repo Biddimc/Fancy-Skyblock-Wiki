@@ -1,0 +1,119 @@
+/*Form und Position der Elemente*/
+
+/*Generelle Regeln*/
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigationsleiste*/
+.navbar {
+    overflow: hidden;
+    column-gap: 20px;
+    row-gap: 20px;
+    display: flex;
+    padding: 5px 5px;
+    justify-content: space-between;
+}
+.navbar a {
+    float: left;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+}
+
+
+/*Schalter für Darkmode*/
+.darkmode {
+    --width: 70px;
+    --height: calc(var(--width) / 2);
+    --border-radius: calc(var(--height) / 2);
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dark_input {
+    display: none;
+}
+
+.dark_fill {
+    position: relative;
+    width: var(--width);
+    height: var(--height);
+    border-radius: var(--border-radius);
+    background: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 3px 3px 9px black;
+    transition: background 0.2s;
+}
+
+.dark_input:checked ~ .dark_fill {
+    background: #009578;
+}
+
+.dark_fill::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: var(--height);
+    width: var(--height);
+    background: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    border-radius: var(--border-radius);
+    transition: transform 0.2s;
+}
+
+.dark_input:checked ~ .dark_fill::after {
+    transform: translateX(var(--height));
+}
+
+
+/*Main Inhalt*/
+.main{
+    margin: auto;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px 10px;
+    align-items: center;
+    display: grid;
+    max-width: 800px;
+}
+
+.container{
+    align-items: center;
+    text-align: center;
+    row-gap: 10px;
+    column-gap: 10px;
+    padding: 10px 10px;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container div{
+    margin: auto;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    max-width: 250px;
+    min-width: 50px;
+    vertical-align: middle;
+}
+
+
+/*Farben für Textabschnitte*/
+.white{
+    color: white;
+}
+
+.light_blue{
+    color: rgb(36, 137, 170);
+}
+
+.yellow{
+    color: yellow;
+}
