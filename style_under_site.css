@@ -124,10 +124,10 @@ body {
     row-gap: 10px;
     column-gap: 10px;
     max-width: 200px;
-    border-style: solid ;
 }
 
 .flex div{
+    margin: 10px;
     row-gap: 10px;
     column-gap: 10px;
     max-width: 200px;
