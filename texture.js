@@ -19,6 +19,11 @@ document.getElementById("TextureChanger").addEventListener("click",
             document.getElementById("farmer_orb_pic").
             src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/farmer_orb.png"
 
+            //Minimg Talismane
+            //Haste Familie
+            document.getElementById("haste_ring_pic").
+            src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/haste_ring.png"
+
             //Magie Talismane
             //Vaccine Familie
             document.getElementById("vaccine_talisman_pic").
@@ -53,6 +58,11 @@ document.getElementById("TextureChanger").addEventListener("click",
             document.getElementById("farmer_orb_pic").
             src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Standard/SkyBlock_items_farmer_orb.png"
 
+            //Minimg Talismane
+            //Haste Familie
+            document.getElementById("haste_ring_pic").
+            src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Standard/SkyBlock_items_haste_ring.png"
+            
             //Magie Talismane
             //Vaccine Familie
             document.getElementById("vaccine_talisman_pic").
