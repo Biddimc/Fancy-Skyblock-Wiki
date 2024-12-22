@@ -101,7 +101,7 @@ body {
 
 
 /*Talismane*/
-.Farming_Talismane , .Mining_Talismane , .Magic_Talismane , .Combat_Talismane , .Foraging_Talismane , .Other_Talismane{
+.Farming_Talismane , .Fishing_Talismane , .Mining_Talismane , .Magic_Talismane , .Combat_Talismane , .Foraging_Talismane , .Other_Talismane{
     margin: auto;
     padding: 10px 10px;
     display: block;
@@ -113,7 +113,7 @@ body {
 }
 
 /*Unterkategorie Andere*/
-.Other, .Vaccine, .Feather .Haste{
+.Family{
     column-gap: 10px;
     row-gap: 10px;
     margin: auto;
