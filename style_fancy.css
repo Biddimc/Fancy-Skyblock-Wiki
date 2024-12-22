@@ -10,7 +10,7 @@ body{
 
 body::after{
     content: '';
-    position: absolute;
+    position: fixed;
     height: 300%;
     width: 100%;
     top: 50%;

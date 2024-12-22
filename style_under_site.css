@@ -100,7 +100,7 @@ body {
 }
 
 
-/*Farming Talismane*/
+/*Talismane*/
 .Farming_Talismane , .Mining_Talismane , .Magic_Talismane , .Combat_Talismane , .Foraging_Talismane , .Other_Talismane{
     margin: auto;
     padding: 10px 10px;
@@ -109,10 +109,11 @@ body {
     min-width: 100%;
     max-width: 100%;
     column-gap: 10px;
+    row-gap: 10px;
 }
 
 /*Unterkategorie Andere*/
-.Other, .Vaccine{
+.Other, .Vaccine, .Feather{
     column-gap: 10px;
     row-gap: 10px;
     margin: auto;
@@ -123,6 +124,7 @@ body {
 
 .flex{
     min-width: 90%;
+    max-width: 90%;
     margin: auto;
     display: flex;
     row-gap: 10px;
