@@ -7,14 +7,14 @@ document.getElementById("TextureChanger").addEventListener("click",
         if (custom === "no"){
             //ändere Bild
             document.getElementById("f_t_pic").
-            src = "";
+            src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/farming_talisman.png";
 
 
             custom ="yes";
         }
         else{
             document.getElementById("f_t_pic").
-            src ="https://wiki.hypixel.net/images/5/5a/SkyBlock_items_farming_talisman.png"
+            src ="https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Standard/SkyBlock_items_farming_talisman.png"
 
             custom = "no"
         }
