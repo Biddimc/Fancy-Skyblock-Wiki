@@ -113,7 +113,7 @@ body {
 }
 
 /*Unterkategorie Andere*/
-.Other, .Vaccine, .Feather{
+.Other, .Vaccine, .Feather .Haste{
     column-gap: 10px;
     row-gap: 10px;
     margin: auto;
@@ -136,6 +136,7 @@ body {
     row-gap: 10px;
     column-gap: 10px;
     max-width: 200px;
+    min-width: 200px;
     display: grid;
     vertical-align: middle;
 }
