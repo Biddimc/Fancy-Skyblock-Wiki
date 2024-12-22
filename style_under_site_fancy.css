@@ -40,6 +40,10 @@ body::after{
 
 /*Main Elemente*/
 
+h2, h3{
+    -webkit-text-stroke: 1px white;
+}
+
 .flex div{
     backdrop-filter: blur(20px);
     box-shadow: 2px 2px 5px;
