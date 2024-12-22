@@ -127,6 +127,7 @@ body {
     max-width: 90%;
     margin: auto;
     display: flex;
+    flex-wrap: wrap;
     row-gap: 10px;
     column-gap: 10px;
 }
@@ -172,4 +173,12 @@ img{
 
 .yellow{
     color: yellow;
+}
+
+.red{
+    color: red;
+}
+
+.gold{
+    color: gold;
 }

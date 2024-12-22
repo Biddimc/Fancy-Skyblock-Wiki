@@ -46,7 +46,11 @@ h2, h3{
 
 .flex div{
     backdrop-filter: blur(20px);
-    box-shadow: 2px 2px 5px;
+    box-shadow: 5px 5px 5px;
     color: black;
 }
 
+.flex div:hover{
+    background-color: rgba(255, 255, 255, 0.6);
+    
+}
