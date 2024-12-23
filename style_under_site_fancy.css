@@ -27,11 +27,12 @@ body::after{
     box-shadow: 10px 10px 15px black;
 }
 
-.navbar a{
+.navbar a , .dropdown-button{
     color: black;
     background-color: transparent;
     backdrop-filter: blur(20px);
     box-shadow: 2px 2px 5px black;
+    border: none;
 }
 
 .navbar a:hover{
