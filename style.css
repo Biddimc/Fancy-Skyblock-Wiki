@@ -7,24 +7,61 @@ body {
 }
 
 /*Navigationsleiste*/
+/*Navigationsleiste*/
 .navbar {
-    overflow: hidden;
-    column-gap: 20px;
-    row-gap: 20px;
+    overflow: visible;
     display: flex;
-    padding: 5px 5px;
+    padding: 10px 10px;
     justify-content: space-between;
     position: fixed;
     min-width: 100%;
     z-index: 99;
 }
-.navbar a {
+
+.navigation {
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+.navbar a , .navbar .dropdown-button {
     float: left;
     text-align: center;
     padding: 10px 10px;
     text-decoration: none;
     font-size: 17px;
     border-radius: 20px;
+}
+
+
+/*Dropdown Menu*/
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button{
+    padding: 10px 10px;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.dropdown-content{
+    overflow: visible;
+    position:absolute;
+    top: 30px;
+    display: none;
+    min-width: 100px;
+    padding: 10px 0;
+    z-index: 100;
+}
+
+.dropdown-content a{
+    padding: 2px 12px;
+    margin: 2px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 

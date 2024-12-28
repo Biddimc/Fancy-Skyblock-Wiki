@@ -21,23 +21,26 @@ body::after{
     opacity: 0.4;
 }
 
+/*Navbar*/
 .navbar{
     background-image: url(https://th.bing.com/th/id/OIP.f-bUxApkYVl9bDYyJuWsqgHaEK?rs=1&pid=ImgDetMain);
     background-size: cover;
     box-shadow: 10px 10px 15px black;
 }
 
-.navbar a{
+.navbar a , .dropdown-button{
     color: black;
     background-color: transparent;
     backdrop-filter: blur(20px);
     box-shadow: 2px 2px 5px black;
+    border: none;
 }
 
 .navbar a:hover{
     box-shadow: 2px 2px 5px white;
 }
 
+/*Main*/
 .container div{
     background-color: transparent;
     backdrop-filter: blur(20px);

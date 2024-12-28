@@ -21,6 +21,7 @@ body::after{
     opacity: 0.4;
 }
 
+/*Navbar*/
 .navbar{
     background-image: url(https://th.bing.com/th/id/OIP.f-bUxApkYVl9bDYyJuWsqgHaEK?rs=1&pid=ImgDetMain);
     background-size: cover;
