@@ -148,6 +148,18 @@ body {
     row-gap: 10px;
 }
 
+/*Rüstungen*/
+.Combat_Rüstungen , .Farming_Rüstungen , .Mining_Rüstungen , .Foraging_Rüstungen , .Magie_Rüstungen , .Fishing_Rüstungen{
+    margin: auto;
+    padding: 10px 10px;
+    display: block;
+    align-items: start;
+    min-width: 80%;
+    max-width: 80%;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
 /*Unterkategorie Andere*/
 .Family{
     column-gap: 10px;
