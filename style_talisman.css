@@ -149,7 +149,7 @@ body {
 }
 
 /*Rüstungen*/
-.Combat_Rüstungen , .Farming_Rüstungen , .Mining_Rüstungen , .Foraging_Rüstungen , .Magie_Rüstungen , .Fishing_Rüstungen{
+.Combat_Rüstungen , .Farming_Rüstungen , .Mining_Rüstungen , .Foraging_Rüstungen , .Magie_Rüstungen , .Fishing_Rüstungen , .Other_R{
     margin: auto;
     padding: 10px 10px;
     display: block;
