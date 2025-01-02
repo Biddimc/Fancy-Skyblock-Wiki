@@ -72,8 +72,8 @@ canvas.addEventListener("mousemove", (event) => {
     const hoveredRegion = getHoveredRegion(mouseX, mouseY);
     if (hoveredRegion) {
         tooltip.textContent = hoveredRegion.label;
-        tooltip.style.left = `${event.clientX + 10}px`;
-        tooltip.style.top = `${event.clientY + 10}px`;
+        tooltip.style.left = `${event.clientX + 10}px`; // 10px Abstand von der Maus
+        tooltip.style.top = `${event.clientY + 10}px`; // 10px Abstand von der Maus
         tooltip.classList.remove("hidden");
     } else {
         tooltip.classList.add("hidden");
