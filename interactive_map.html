@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <Title>Fancy Skyblock Wiki</Title>
+        <meta charset="utf8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        
+        <link rel="stylesheet" href="style_talisman.css">
+        <link id="stylesheet" rel="stylesheet" href="fancy_talisman.css">
+    </head>
+
+    <body>
+        <!--Navigationsleiste Links-->
+        <div class="navbar">
+            <div class="navigation">
+                <a class="point" href="index.html">Home</a>
+                <div class="dropdown">
+                    <button class="dropdown-button">Ausrüstung</button>
+                    <div class="dropdown-content">
+                        <a href="talisman.html">Talismane</a>
+                        <a href="armor.html">Rüstung</a>
+                    </div>
+                </div>
+                <a class="point" href="index.html">Home</a>
+            </div>
+            
+
+            <!--Schalter für Darkmode-->
+            <label class="darkmode" for="toggle-stylesheet">
+                <input class="dark_input" name="" type="checkbox" id="toggle-stylesheet">
+                <div class="dark_fill"></div>
+            </label>
+            
+            <!--Externe JS Datei-->
+            <script src="darkmode.js">
+            </script>
+
+        </div>
+
+        <div id="map-container">
+            <canvas id="mapCanvas"></canvas>
+            <div id="tooltip" class="hidden"></div>
+        </div>
+        <script src="Map.js"></script>
+
+        <footer>
+            <div class="Impressum">
+                Impressum: <br> <br>
+                <a href="">Zu mir</a> <br>
+            </div>
+            <div class="Copyright">
+                Copyright: <br> <br>
+                <a href="">Bildquellen</a>
+            </div>
+        </footer>
+    </body>
+</html>
