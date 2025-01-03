@@ -152,3 +152,30 @@ body {
     text-decoration: none;
     border-radius: 20px;
 }
+
+
+/*Impressun*/
+footer{
+    vertical-align: bottom;
+    display: flex;
+    overflow: visible;
+    padding: 10px 0px;
+    min-width: 100%;
+    z-index: 99;
+    align-items: center;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+footer div{
+    margin: auto;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+footer div a{
+    text-decoration: none;
+}

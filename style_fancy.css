@@ -55,3 +55,21 @@ body::after{
 .container div:hover{
     box-shadow: 2px 2px 5px white;
 }
+
+/*Impressum*/
+footer{
+    background-size: cover;
+    background-image: url(https://th.bing.com/th/id/OIP.f-bUxApkYVl9bDYyJuWsqgHaEK?rs=1&pid=ImgDetMain) ;
+    background-position: 1000%;
+    min-height: 15%;
+}
+
+footer div{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 5px 5px;
+}
+
+footer div a{
+    color: black;
+}

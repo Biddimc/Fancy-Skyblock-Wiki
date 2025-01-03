@@ -71,6 +71,10 @@ footer div{
     box-shadow: 5px 5px 5px;
 }
 
+footer div a{
+    color: black;
+}
+
 /*Impressums Seite*/
 #Impressum{
     background-color: transparent;
