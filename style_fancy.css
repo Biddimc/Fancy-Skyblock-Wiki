@@ -47,7 +47,7 @@ body::after{
     box-shadow: 2px 2px 5px black;
 }
 
-.container div a{
+.container a div {
     color: white;
     text-decoration: none;
 }
