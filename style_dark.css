@@ -8,10 +8,34 @@ body{
     background-size: cover;
 }
 
-.navbar a{
+.navbar a , .dropdown-button{
     color: white;
     background-color: black;
     position: relative;
     background-size: cover;
     box-shadow: 2px 2px 5px #343434;
+}
+
+
+.container a{
+    background-color: black ;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px #343434;
+}
+
+
+.container div{
+    color: white;
+    text-decoration: none;
+}
+
+footer div{
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 5px #343434;
+}
+
+footer a{
+    color: white;
+    text-decoration: none;
 }

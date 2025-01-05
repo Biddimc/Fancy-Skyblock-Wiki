@@ -29,10 +29,9 @@ body::after{
 }
 
 .navbar a , .dropdown-button{
-    color: black;
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-    box-shadow: 2px 2px 5px black;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 5px #343434;
     border: none;
 }
 
@@ -42,25 +41,12 @@ body::after{
 
 /*Main Elemente*/
 
-#TextureChanger{
-    background-color: transparent;
-    border-style: none;
-    backdrop-filter: blur(20px);
-    box-shadow: 2px 2px 5px black;
-}
-
-#TextureChanger:hover{
-    box-shadow: 2px 2px 5px white;
-}
-
-
 h2, h3{
     -webkit-text-stroke: 1px white;
 }
 
 .flex div{
-    backdrop-filter: blur(20px);
-    box-shadow: 5px 5px 5px;
+    box-shadow: 5px 5px 5px #343434;
     color: black;
 }
 
@@ -70,21 +56,15 @@ h2, h3{
 }
 
 /*Impressum*/
-footer{
-    background-size: cover;
-    background-image: url(https://th.bing.com/th/id/OIP.f-bUxApkYVl9bDYyJuWsqgHaEK?rs=1&pid=ImgDetMain) ;
-    background-position: 1000%;
-    min-height: 15%;
-}
-
 footer div{
-    background-color: transparent;
-    backdrop-filter: blur(20px);
-    box-shadow: 5px 5px 5px;
+    color: white;
+    background-color: black;
+    box-shadow: 5px 5px 5px #343434;
 }
 
-footer div a{
-    color: black;
+footer a{
+    color: white;
+    text-decoration: none;
 }
 
 /*Impressums Seite*/

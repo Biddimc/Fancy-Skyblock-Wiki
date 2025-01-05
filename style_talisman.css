@@ -135,6 +135,11 @@ body {
     max-width: 80%;
 }
 
+#TextureChanger{
+    border-radius: 20px;
+    padding: 10px 10px;
+}
+
 
 /*Talismane*/
 .Farming_Talismane , .Fishing_Talismane , .Mining_Talismane , .Magic_Talismane , .Combat_Talismane , .Foraging_Talismane , .Other_Talismane{
