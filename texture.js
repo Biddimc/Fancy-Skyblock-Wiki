@@ -35,10 +35,34 @@ document.getElementById("TextureChanger").addEventListener("click",
 
             //Combat Talismane
             //Andere Talismane
+            document.getElementById("fire_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/fire_talisman.png"
+            document.getElementById("lava_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/lava_talisman.png"
+
+            //Foraging Talismane
+            //Andere Talismane
+            document.getElementById("wood_affinity_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/wood_affinity_talisman.png"
 
             //Magie Talismane
+            //Potion Affinity
+            document.getElementById("potion_affinity_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/titanium_talisman.png"
+            document.getElementById("potion_affinity_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/titanium_ring.png"
+            document.getElementById("potion_affinity_artifact_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/titanium_artifact.png"
+
             //Vaccine Familie
             document.getElementById("vaccine_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/vaccine_talisman.png"
+
+            //Healing Familie
+            document.getElementById("healing_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/healing_talisman.png"
+            document.getElementById("healing_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/healing_ring.png"
+
+            //Fishing Talismane
+            //Sea Creature Familie
+            document.getElementById("sea_creature_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/sea_creature_talisman.png"
+            document.getElementById("sea_creature_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/sea_creature_ring.png"       
+            document.getElementById("sea_creature_artifact_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/sea_creature_artifact.png"
+
+            //Bait Familie
+            document.getElementById("bait_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/bait_ring.png"
 
             //Andere Talismane
             //Feather Familie
@@ -48,9 +72,21 @@ document.getElementById("TextureChanger").addEventListener("click",
 
             document.getElementById("feather_artifact_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/feather_artifact.png"
 
+            //Speed Familie
+            document.getElementById("speed_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/speed_talisman.png"
+            document.getElementById("speed_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/speed_ring.png"
+            document.getElementById("speed_artifact_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/speed_artifact.png"
+
+            //Coins Familie
+            document.getElementById("talisman_of_coins_pic").src ="https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/talisman_of_coins.png"
+
+            //Emerald Familie
+            document.getElementById("emerald_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/emerald_ring.png"
+
             //Ohne Familie
             document.getElementById("night_vision_charm_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/night_vision_charm.png"
-
+            document.getElementById("magnetic_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/magnetic_talisman.png"
+            document.getElementById("piggy_bank_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/piggy_bank.png"
 
             custom ="yes";
         }
