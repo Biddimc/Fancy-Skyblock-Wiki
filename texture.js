@@ -20,6 +20,21 @@ document.getElementById("TextureChanger").addEventListener("click",
             //Minimg Talismane
             //Haste Familie
             document.getElementById("haste_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/haste_ring.png"
+            document.getElementById("haste_artefact_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/haste_artifact.png"
+
+            //Titanium Familie
+            document.getElementById("titanium_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/titanium_talisman.png"
+            document.getElementById("titanium_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/titanium_ring.png"
+            document.getElementById("titanium_artefact_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/titanium_artifact.png"
+            document.getElementById("titanium_relic_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/titanium_relic.png"
+
+            //Power Familie
+            document.getElementById("power_talisman_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/talisman_of_power.png"
+            document.getElementById("power_ring_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/ring_of_power.png"
+            document.getElementById("power_artifact_pic").src = "https://raw.githubusercontent.com/Biddimc/Fancy-Skyblock-Wiki/refs/heads/main/textures/Artifakte/Ge%C3%A4ndert/artifact_of_power.png"
+
+            //Combat Talismane
+            //Andere Talismane
 
             //Magie Talismane
             //Vaccine Familie
