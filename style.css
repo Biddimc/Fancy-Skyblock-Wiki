@@ -64,6 +64,46 @@ body {
     display: block;
 }
 
+/* Suchfeld */
+#searchInput {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: auto;
+}
+
+/* Suchergebnisse */
+.result {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.result h3 {
+    margin: 0 0 5px;
+    color: #007BFF;
+}
+
+.result p {
+    margin: 0;
+    color: #666;
+}
+
+/* Links */
+.result a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.result a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
 
 /*Schalter für Darkmode*/
 .darkmode {

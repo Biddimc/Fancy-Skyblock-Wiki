@@ -40,6 +40,17 @@ body::after{
     box-shadow: 2px 2px 5px white;
 }
 
+/*Seitenleiste*/
+.sidebar_container{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 2px 2px 5px black;
+}
+
+.sidebar_link:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
 /*Main Elemente*/
 
 #TextureChanger{
