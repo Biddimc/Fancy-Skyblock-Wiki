@@ -194,6 +194,8 @@ body {
     max-width: 100%;
     column-gap: 10px;
     row-gap: 10px;
+    position: relative;
+    
 }
 
 /*Rüstungen*/
@@ -206,6 +208,8 @@ body {
     max-width: 80%;
     column-gap: 10px;
     row-gap: 10px;
+    display: flex; /* Setzt den Container auf ein flexibles Layout */
+    align-items: flex-start; /* Sorgt dafür, dass alles oben ausgerichtet ist */
 }
 
 /*Unterkategorie Andere*/
@@ -238,6 +242,7 @@ body {
     vertical-align: middle;
 }
 
+/*Bild*/
 img{
     margin-left: 20% ;
     align-items: center;
@@ -318,4 +323,8 @@ footer div a{
 
 .orange{
     color: orange;
+}
+
+.rare{
+    color: blue;
 }
