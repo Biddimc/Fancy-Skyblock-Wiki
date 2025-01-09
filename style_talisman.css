@@ -187,6 +187,7 @@ body {
     min-width: 60%;
     max-width: 60%;
     margin: auto;
+    min-height: 160px;
 }
 
 #TextureChanger{
