@@ -64,6 +64,14 @@ body::after{
     box-shadow: 2px 2px 5px white;
 }
 
+.Info{
+    background-color: transparent;
+    backdrop-filter: blur(20px);
+    box-shadow: 5px 5px 5px;
+    color: black;
+}
+
+
 
 h2, h3{
     -webkit-text-stroke: 1px white;

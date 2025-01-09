@@ -178,6 +178,12 @@ body {
     max-width: 80%;
 }
 
+.Info{
+    min-width: 60%;
+    max-width: 60%;
+    margin: auto;
+}
+
 #TextureChanger{
     border-radius: 20px;
     padding: 10px 10px;
@@ -185,7 +191,7 @@ body {
 
 
 /*Talismane*/
-.Farming_Talismane , .Fishing_Talismane , .Mining_Talismane , .Magic_Talismane , .Combat_Talismane , .Foraging_Talismane , .Other_Talismane{
+.Farming_Talismane , .Fishing_Talismane , .Mining_Talismane , .Magic_Talismane , .Combat_Talismane , .Foraging_Talismane , .Other_Talismane , .collection{
     margin: auto;
     padding: 10px 10px;
     display: block;
@@ -209,7 +215,6 @@ body {
     column-gap: 10px;
     row-gap: 10px;
     display: flex; /* Setzt den Container auf ein flexibles Layout */
-    align-items: flex-start; /* Sorgt dafür, dass alles oben ausgerichtet ist */
 }
 
 /*Unterkategorie Andere*/
