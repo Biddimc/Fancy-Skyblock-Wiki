@@ -224,12 +224,23 @@ body {
 
 /*Unterkategorie Andere*/
 .Family{
+    display: block;
     column-gap: 10px;
     row-gap: 10px;
     margin: auto;
     padding: 10px 10px;
     align-items: center;
     min-width: 90%
+}
+
+.image_cate{
+    margin: auto;
+    padding: 10px 10px;
+    display: block;
+    align-items: center;
+    max-width: 10%;
+    column-gap: 10px;
+    row-gap: 10px;
 }
 
 .flex{
