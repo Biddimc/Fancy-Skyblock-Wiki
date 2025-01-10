@@ -264,6 +264,12 @@ img{
 }
 
 
+/*Für Bilder mit Link*/
+.Clickable_IMG{
+    cursor: pointer;
+}
+
+
 /*Impressun*/
 footer{
     vertical-align: bottom;
