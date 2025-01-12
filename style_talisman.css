@@ -124,7 +124,6 @@ body {
     z-index: 98; /* Überlagert andere Elemente */
     border-radius: 20px;
 }
-
 /* Navigation */
 .sidebar_nav {
     display: flex;
@@ -132,7 +131,6 @@ body {
     height: 100%;
     padding: 20px 0;
 }
-
 /* Menü-Stile */
 .sidebar_menu {
     list-style: none;
@@ -233,6 +231,7 @@ body {
     min-width: 90%
 }
 
+/*Bilder über den Kollektionen*/
 .image_cate{
     margin: auto;
     padding: 10px 10px;
@@ -243,6 +242,8 @@ body {
     row-gap: 10px;
 }
 
+
+/*Die eigentliche Liste*/
 .flex{
     min-width: 90%;
     max-width: 90%;

@@ -65,6 +65,8 @@ body {
     display: block;
 }
 
+
+
 /*Schalter für Darkmode*/
 .darkmode {
     --width: 70px;
@@ -109,6 +111,7 @@ body {
 .dark_input:checked ~ .dark_fill::after {
     transform: translateX(var(--height));
 }
+
 
 
 /*Hauptseite*/
