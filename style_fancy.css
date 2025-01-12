@@ -7,7 +7,7 @@ body{
     background-repeat: no-repeat;
     background-attachment:fixed;
 }
-
+/*Verdunklung des Hintergrunds*/
 body::after{
     content: '';
     position: fixed;
